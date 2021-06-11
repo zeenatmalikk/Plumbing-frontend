@@ -1,0 +1,35 @@
+center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+background-image: url("../NewImage/8th-sec-bg.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+height: 80vh;
+align-items: flex-end;
+}
+
+.your{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    /* line-height: 0.5; */
+}
+
+.img7{
+    background-image: url("../NewImage/7th-sec-img2.jpg");
+    background-repeat: no-repeat;
+/* background-attachment: fixed;   */
+background-size: cover;
+}
+
+.bgimg7{
+    background-image: url("../NewImage/7th-sec-img1.jpg");
+    background-repeat: no-repeat;
+/* background-attachment: fixed;   */
+background-size: cover;
+}
