@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 import { Button, } from "@material-ui/core";
+import image from "../NewImage/logo.jpg"
 
 const styles = (theme) => ({
   grow: {
@@ -20,6 +21,8 @@ const styles = (theme) => ({
   title: {
     display: "none",
     margin: theme.spacing(2),
+    color:'#000',
+    fontWeight:'bold',
     [theme.breakpoints.up("md")]: {
       display: "block",
     },
@@ -87,11 +90,12 @@ const Tool = (props) => {
   const { classes } = props;
   return (
     <div className={classes.grow}>
-      <AppBar style={{ backgroundColor: "#268856" }} position="static">
+      <AppBar style={{ backgroundColor: "#fff" }} position="static">
         <Toolbar>
-          <Typography className={classes.logo} variant="h5" noWrap>
+          <img style={{height:80}} src={image}/>
+          {/* <Typography className={classes.logo} variant="h5" noWrap>
            Plumbing services
-          </Typography>
+          </Typography> */}
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
@@ -112,7 +116,7 @@ const Tool = (props) => {
               style={{}}
               className={classes.title}
               variant="h6"
-              color="inherit"
+              color="primary"
             >
              About MFP
             </Typography>
@@ -120,14 +124,14 @@ const Tool = (props) => {
               <Typography
                 className={classes.title}
                 variant="h6"
-                color="inherit"
+                color="primary"
               >
                 Services
               </Typography>
-            <Typography className={classes.title} variant="h6" color="inherit">
+            <Typography className={classes.title} variant="h6" color="primary">
               Promotions
             </Typography>
-            <Typography className={classes.title} variant="h6" color="inherit">
+            <Typography className={classes.title} variant="h6" color="primary">
               Contact Us
             </Typography>
           
@@ -149,7 +153,7 @@ const Tool = (props) => {
               aria-label="open drawer"
               onClick={props.openDrawerHandler}
             >
-              <MenuIcon />
+              <MenuIcon style={{color:"#000"}}/>
             </IconButton>
           </div>
         </Toolbar>

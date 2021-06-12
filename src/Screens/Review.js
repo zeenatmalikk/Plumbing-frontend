@@ -39,7 +39,7 @@ const Review = () => {
   const classes = useStyles();
   return (
     <div>
-      <Container style={{marginTop:'10%'}}>
+      <Container style={{marginTop:'10%', padding:0}}>
         <Grid item md={12} xs={12} sm={12} className={classes.center}>
           <div className={classes.center}>
             <img style={{ height: 70, marginTop: 20 }} src={secondimg} />

@@ -31,7 +31,7 @@ const DrawerComp = (props) => {
       onKeyDown={props.toggleDrawerHandler}
     >
       <List>
-        {["Home", "Shop", "Pages", "Blog"].map((text, index) => (
+        {["AboutMFP", "Services", "Promotions", "Contact"].map((text, index) => (
           <ListItem button key={text}>
             <ListItemIcon>
               {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}

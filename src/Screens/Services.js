@@ -101,7 +101,7 @@ const Services = () => {
   const classes = useStyles();
   return (
     <div>
-      <Container>
+      <Container style={{padding:0}}>
         <Typography className={classes.head} variant="h2">
           Our Plumbing Services
         </Typography>

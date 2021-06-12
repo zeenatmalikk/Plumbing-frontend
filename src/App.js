@@ -14,6 +14,7 @@ import Blogs from "./Screens/Blogs";
 import Form from "./Screens/Landing";
 import Landing from "./Screens/Landing";
 import Formfooter from "./Screens/Formfooter";
+import Footerend from "./Screens/Footerend"
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Banner />
         <Blogs />
         <Formfooter />
+        <Footerend/>
       </div>
     </Router>
   );

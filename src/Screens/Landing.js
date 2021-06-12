@@ -52,7 +52,7 @@ const Form = () => {
   const classes = useStyles();
   return (
     <div>
-      <Container>
+      <Container style={{padding:0}}>
         <Grid container >
           <Grid item md={12} xs={12} sm={12} className="bg">
             <Typography className={classes.head} variant="h5">Plumbing and heating<br></br> services</Typography>

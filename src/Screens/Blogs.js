@@ -59,9 +59,9 @@ const Blogs = () => {
           </Typography>
         <Grid
           container
-          style={{ display: "flex", justifyContent: "space-between" }}
+          style={{ display: "flex", justifyContent: "space-between",  }}
         >
-          <Grid item md={4} xs={12} sm={6} style={{ width: "100%" }}>
+          <Grid item md={4} xs={12} sm={6} style={{ width: "100%", }}>
             <div className={classes.center}>
               <img className={classes.img} src={blogimg1} />
             </div>{" "}
